@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Get X Post</title>
+</head>
+<body>
+     <!-- Conteúdo -->
+<h2> GET </h2>    
+<form action="get.php" method="get">
+  First name:<br>
+  <input type="text" name="firstname"><br>
+  Last name:<br>
+  <input type="text" name="lastname"><br>
+  
+  <input type="radio" name="gender" value="male" checked> Male <br>
+  <input type="radio" name="gender" value="female"> Female <br>
+  <input type="radio" name="gender" value="other"> Other <br>
+    
+  <input type="submit" value="GET SUBMIT"> 
+</form>    
+
+<BR><BR><BR>
+<H3> GET </H3>    
+<UL>O método padrão ao enviar dados do formulário é GET.</UL>
+<UL>No entanto, quando GET é usado, os dados do formulário submetidos serão visíveis no campo de endereço da página</UL>
+<UL>Útil se deseja Guardar Links</UL>    
+    
+    
+<h2> POST </h2>    
+<form action="post.php" method="post">
+  First name:<br>
+  <input type="text" name="firstname"><br>
+  Last name:<br>
+  <input type="text" name="lastname"><br>
+  
+  <input type="radio" name="gender" value="male" checked> Male <br>
+  <input type="radio" name="gender" value="female"> Female <br>
+  <input type="radio" name="gender" value="other"> Other <br>
+    
+  <input type="submit" value="POST SUBMIT"> 
+</form>    
+
+<BR><BR><BR>
+<H3> POST </H3>    
+<UL>Sempre use POST se os dados do formulário contiverem informações confidenciais ou pessoais.</UL>
+<UL>O método POST não exibe os dados de formulário enviados no campo de endereço da página.</UL>
+<UL>O POST não tem limitações de tamanho e pode ser usado para enviar grandes quantidades de dados.</UL>
+    
+</body>
+</html>
+
+
+
+
